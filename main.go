@@ -19,3 +19,11 @@ func main() {
 	log.Fatal(http.ListenAndServe(":8081", nil))
 
 }
+
+func Sum(x int, y int) int {
+	return x + y
+}
+
+func Subtraction(x int, y int) int {
+	return x - y
+}
