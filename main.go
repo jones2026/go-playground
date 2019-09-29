@@ -20,10 +20,10 @@ func main() {
 
 }
 
-func Sum(x int, y int) int {
+func sum(x int, y int) int {
 	return x + y
 }
 
-func Subtraction(x int, y int) int {
+func subtraction(x int, y int) int {
 	return x - y
 }
